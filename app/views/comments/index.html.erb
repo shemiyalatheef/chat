@@ -1,0 +1,19 @@
+<div class = "a">
+<div class="b">
+<div class="jumbotron b">
+  <div class="container">
+    <h1>Join with ideologysoft</h1>
+    <p>feel free......! lets chat </p>
+
+    <p>Click the button below to start a new topic:</p>
+    <p>
+      <%= link_to 'Add new topic', new_comment_path, class: 'btn btn-primary btn-lg' %>
+    </p>
+  </div>
+</div>
+</div>
+<%= comments_tree_for @comments %>
+</div>
+
+
+<%#= render @comments %>
